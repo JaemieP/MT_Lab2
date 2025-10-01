@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Information Form</title>
+        <style>
+            body {
+                font-family: consolas;
+                background-color: lavender;
+            }
+            h1{
+                text-align: center;
+            }
+            #name h3{
+                line-height: 15px;
+            }
+            #name input{
+                width: 700px;
+                height: 30px;
+                font-size: large;
+            }
+            #bracket table{
+                width: 100%;
+                border-style: solid;
+                border-color: white;
+                border: 1;
+                border-radius: 10px;
+                background-color: white;
+            }
+            #bracket table tr, th td {
+                text-align: center;
+                font-size: large;
+            }
+            #bracket h3{
+                display: inline;
+            }
+            button {
+                padding: 10px;
+                border: 0;
+                background-color: white;
+                border-radius: 20%;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div id="name">
+                <h1>Welcome to My Page!!</h1> <hr>
+                <h3>First Name: </h3><input type="text"><br>
+                <h3>Last Name: </h3><input type="text"><br>
+                <h3>Username Name: </h3><input type="text"><br>
+                <h3>Nickname: </h3><input type="text"><hr>
+            </div>
+            <div id="bracket">
+                <table>
+                    <th><h3>Age Bracket:</h3> </th>
+                    <tr>
+                        <td><input type="radio" name="age">17 and younger <input type="radio" name="age">18-19 <input type="radio" name="age">30 and older</td>
+                    </tr>
+                </table><br>
+                <table>
+                    <th><h3>Interests:</h3></th>
+                    <tr>
+                        <td><input type="checkbox">Sports <input type="checkbox">Arts <input type="checkbox"> Science and Maths</td>
+                    </tr>
+                </table>
+            </div><br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
